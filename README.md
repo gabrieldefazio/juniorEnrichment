@@ -56,3 +56,4 @@ This should complete a fully working API. Don't worry about having anything pret
    ![](https://www.dropbox.com/s/4fk3b90cd0i1a5y/postman_post.png?raw=true)
 - Databases: use Sequelize in your routes and see if you are receiving what you expect
 
+# juniorEnrichment
