@@ -57,3 +57,4 @@ This should complete a fully working API. Don't worry about having anything pret
 - Databases: use Sequelize in your routes and see if you are receiving what you expect
 
 # juniorEnrichment
+# juniorEnrichment
