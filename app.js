@@ -33,7 +33,7 @@ app.use((err, req, res, next) => {
 });
 
 
-db.sync()
+db.sync({force: false})
 .then(() => {
 	console.log('db synced')
 	app.listen(PORT, () => console.log(`server listening on port ${PORT}`))

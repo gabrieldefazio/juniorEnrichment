@@ -12,10 +12,11 @@ var Student = db.define("student" , {
     allowNull: false
   },
   teacherID: {
-    type: Sequelize.STRING,
+    type: Sequelize.DECIMAL,
     allowNull: false
   }
 });
+
 
 
 var Teacher = db.define('teacher', {
@@ -44,5 +45,7 @@ Student.perfect = function() {
     }
   })
 }
+
+// Student.belongsTo(Teacher, {as: "Teacher" })
 
 module.exports = {db, Student, Teacher}
